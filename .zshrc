@@ -47,3 +47,5 @@ alias gup='git smart-pull'
 alias gm='git smart-merge'
 
 export GOPATH=~/.go
+
+source ~/.localrc/.zshrc
