@@ -7,3 +7,7 @@ set smarttab
 set expandtab
 set softtabstop=4
 set autoindent
+
+if filereadable(expand("~/.localrc/.vimrc"))
+        source ~/.vimrc.local
+endif
