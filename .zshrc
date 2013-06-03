@@ -34,8 +34,8 @@ export PATH=/usr/local/mysql/bin:$PATH
 # Add Python 2.7 to path
 export PATH=/Developer/yagarto-4.7.2/bin:/Developer/yagarto-4.7.2/tools:/Library/Frameworks/Python.framework/Versions/2.7/bin:$PATH
 
-export WORKON_HOME=~/.Envs
-source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
+#export WORKON_HOME=~/.Envs
+#source /Library/Frameworks/Python.framework/Versions/2.7/bin/virtualenvwrapper.sh
 
 #export DYLD_LIBRARY_PATH=/usr/local/mysql/lib
 #

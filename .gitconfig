@@ -11,7 +11,5 @@
 	trustExitCode = true
 [color]
 	ui = always
-[push]
-	default = simple
 [include]
     path = ~/.localrc/.gitconfig

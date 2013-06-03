@@ -1,3 +1,14 @@
 *~
 .DS_Store
 *.sublime-*
+atlassian-ide-plugin.xml
+*.pyc
+*.swp
+*.log
+*.mov
+tags
+.idea
+Thumbs.db
+ehthumbs.db
+Icon?
+dump.rdb
