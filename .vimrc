@@ -2,6 +2,7 @@ syntax enable
 set ts=4
 set number
 filetype plugin indent on
+set bg=dark
 set shiftwidth=4
 set smarttab
 set expandtab
