@@ -48,4 +48,6 @@ alias gm='git smart-merge'
 
 export GOPATH=~/.go
 
-source ~/.localrc/.zshrc
+if [ -e ~/.localrc/.zshrc ]; then
+    source ~/.localrc/.zshrc
+fi
