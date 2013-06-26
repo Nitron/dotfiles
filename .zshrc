@@ -46,6 +46,15 @@ alias gl='glog --graph'
 alias gup='git smart-pull'
 alias gm='git smart-merge'
 
+if [ -e /Applications/Vagrant ]; then
+    export PATH=/Applications/Vagrant/bin:$PATH
+    if [ -e /Applications/VMware\ Fusion.app ]; then
+        export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+    fi
+
+    alias v="fab vagrant"
+fi
+
 export GOPATH=~/.go
 
 if [ -e ~/.localrc/.zshrc ]; then
