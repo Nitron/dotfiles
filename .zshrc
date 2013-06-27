@@ -56,7 +56,14 @@ if [ -e /Applications/Vagrant ]; then
 fi
 
 export GOPATH=~/.go
+if [ -e /Applications/VMware\ Fusion.app ]; then
+    export VAGRANT_DEFAULT_PROVIDER=vmware_fusion
+fi
 
 if [ -e ~/.localrc/.zshrc ]; then
     source ~/.localrc/.zshrc
+fi
+
+if [ -e $HOME/.rvm ]; then
+    PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 fi
