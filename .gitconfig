@@ -1,11 +1,10 @@
-[user]
-	name = Chris Williams
-	email = chris@christopher-williams.net
 [core]
-	editor = subl -w
-	excludesfile = ~/.dotfiles/.gitignore_global
+	editor = vim
+	excludesfile = /Users/chris/.dotfiles/.gitignore_global
+	quotepath = false
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
@@ -17,3 +16,8 @@
     helper = osxkeychain
 [include]
     path = ~/.localrc/.gitconfig
+[user]
+	name = Chris Williams
+	email = chris@christopher-williams.net
+[url "https://github.com/"]
+	insteadOf = git://github.com/
